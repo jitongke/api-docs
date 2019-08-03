@@ -1,26 +1,30 @@
 # 注册
 
-##请求参数：
+## 请求参数：
+
 ```
 {
   "cmd": "account/register",
   "cityId": "31", 
   "parameters": {
     "phone": "12333335555",
-  	"password": "1111", 
-  	"verification": "6666"
+      "password": "1111", 
+      "verification": "6666"
   }
 }
 ```
+
 ### 请求参数说明
+
 | 参数名称 | 是否必填 | 参数说明 |
-| -- | -- | -- |
+| --- | --- | --- |
 | cityId | 是 | 地域code |
 | phone | 是 | 手机号 |
 | password | 是 | 密码 |
 | verification | 是 | 手机验证码 |
 
 响应：
+
 ```
 {
     "messageId": null,
@@ -41,3 +45,6 @@
     "auth": {}
 }
 ```
+
+
+
