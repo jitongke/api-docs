@@ -1,25 +1,29 @@
 # 登录
 
-##请求：
+## 请求：
+
 ```
 {
   "cmd": "account/login",
   "cityId": "31",
   "parameters": {
     "phone": "12333334444",
-  	"password": "1111"
+      "password": "1111"
   }
 
 }
 ```
+
 ### 请求参数说明
+
 | 参数名称 | 是否必填 | 参数说明 |
-| -- | -- | -- |
+| --- | --- | --- |
 | cityId | 否 | 地域code |
 | phone | 是 | 手机号 |
 | password | 是 | 密码 |
 
 响应：
+
 ```
 {
     "messageId": null,
@@ -44,3 +48,6 @@
     "auth": {}
 }
 ```
+
+
+
